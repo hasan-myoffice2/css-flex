@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 750px;
+    height: auto;
+    border: 2px solid orange;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.child {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.child .box {
+    width: 232px;
+    height: 200px;
+    background-color: skyblue;
+}
